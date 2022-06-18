@@ -16,10 +16,8 @@ app.use(helmet());
 app.use(xss());
 
 app.use(
-  cors({
-    // origin: ["https://cs-tracker.netlify.app"],
-    origin: ["*"],
-  })
+  cors()
+  // origin: ["https://cs-tracker.netlify.app"],  })
 );
 
 routes(app);
