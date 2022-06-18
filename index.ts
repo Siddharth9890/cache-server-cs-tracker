@@ -17,7 +17,8 @@ app.use(xss());
 
 app.use(
   cors({
-    origin: ["https://cs-tracker.netlify.app"],
+    // origin: ["https://cs-tracker.netlify.app"],
+    origin: ["*"],
   })
 );
 
