@@ -17,7 +17,8 @@ app.use(xss());
 
 app.use(
   cors({
-    origin: ["https://cs-tracker.netlify.app", "https://cs-tracker.pages.dev"],
+    origin: ["https://cs-tracker.vercel.app"],
+    methods: ["GET"],
   })
 );
 

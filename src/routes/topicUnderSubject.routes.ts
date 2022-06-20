@@ -12,8 +12,4 @@ router.get(
   topicUnderSubject.getAllTopicsUnderSubject
 );
 
-// get all topics under a subject this endpoint is just used for get static props
-// localhost:5000/api/v2/topic/:topicName
-router.get("/", topicUnderSubject.getAll);
-
 export default router;
