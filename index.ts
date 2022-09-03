@@ -17,7 +17,7 @@ app.use(xss());
 
 app.use(
   cors({
-    origin: ["https://cs-tracker.vercel.app"],
+    origin: ["*"],
     methods: ["GET"],
   })
 );
